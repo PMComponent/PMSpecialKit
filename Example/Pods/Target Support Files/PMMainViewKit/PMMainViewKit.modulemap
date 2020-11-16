@@ -1,0 +1,6 @@
+framework module PMMainViewKit {
+  umbrella header "PMMainViewKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

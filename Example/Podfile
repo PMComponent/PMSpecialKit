@@ -1,6 +1,8 @@
+source 'https://github.com/PMComponent/PMSpace.git'
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '10.0'
 
 target 'PMSpecialKit_Example' do
   pod 'PMSpecialKit', :path => '../'

@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/LuminousZPM/PMSpecialKit'
+  s.homepage         = 'https://github.com/PMComponent/PMSpecialKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'LuminousZPM' => 'zhangpeiming1991@gmail.com' }
-  s.source           = { :git => 'https://github.com/LuminousZPM/PMSpecialKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/PMComponent/PMSpecialKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,5 +38,14 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'Masonry'
+    s.dependency 'YYWebImage'
+    s.dependency 'ReactiveCocoa', '~> 2.5'
+    s.dependency 'PMCategoryKit'
+    s.dependency 'PMMainViewKit'
+    s.dependency 'PMAPIsKit'
+    s.dependency 'PMToolsKit'
+    s.dependency 'PMConfigsKit'
+    s.dependency 'PMReformerKeysKit'
+
 end

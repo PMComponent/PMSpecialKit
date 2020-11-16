@@ -1,0 +1,6 @@
+framework module PMReformerKeysKit {
+  umbrella header "PMReformerKeysKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

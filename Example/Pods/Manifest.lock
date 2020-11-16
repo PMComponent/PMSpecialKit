@@ -1,0 +1,107 @@
+PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - PMAPIsKit (0.1.0):
+    - AFNetworking (~> 2.3)
+    - PMToolsKit
+  - PMCategoryKit (0.1.0)
+  - PMConfigsKit (0.1.0)
+  - PMMainViewKit (0.1.0)
+  - PMReformerKeysKit (0.1.0)
+  - PMSpecialKit (0.1.0):
+    - Masonry
+    - PMAPIsKit
+    - PMCategoryKit
+    - PMConfigsKit
+    - PMMainViewKit
+    - PMReformerKeysKit
+    - PMToolsKit
+    - ReactiveCocoa (~> 2.5)
+    - YYWebImage
+  - PMToolsKit (0.1.0):
+    - FMDB
+    - MBProgressHUD
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - PMSpecialKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - FMDB
+    - Masonry
+    - MBProgressHUD
+    - ReactiveCocoa
+    - YYCache
+    - YYImage
+    - YYWebImage
+  https://github.com/PMComponent/PMSpace.git:
+    - PMAPIsKit
+    - PMCategoryKit
+    - PMConfigsKit
+    - PMMainViewKit
+    - PMReformerKeysKit
+    - PMToolsKit
+
+EXTERNAL SOURCES:
+  PMSpecialKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  PMAPIsKit: 37e8cca1bf079d26f101bb40057019d6b39f8419
+  PMCategoryKit: da66dce3d9b3f6946fb86854ed65cd6d239522c6
+  PMConfigsKit: 64ab2d822d5058858b4de33ac22ecc81de1ed3c8
+  PMMainViewKit: 57232af1e2134b4628e7513abd8f3bf3473c4f46
+  PMReformerKeysKit: 68d7a33690d1cd48ec6ed87fcc8efaf42e294071
+  PMSpecialKit: 11b06d9519329f9bcacc53c96500957c9022fb70
+  PMToolsKit: 80770571fb2fd0036394cea8e5710190fb1157f0
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: 507f78f188485983b7895b63b33e3d62e0a58dba
+
+COCOAPODS: 1.9.0

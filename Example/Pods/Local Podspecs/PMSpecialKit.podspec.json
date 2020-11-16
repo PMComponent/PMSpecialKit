@@ -1,0 +1,51 @@
+{
+  "name": "PMSpecialKit",
+  "version": "0.1.0",
+  "summary": "A short description of PMSpecialKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PMComponent/PMSpecialKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LuminousZPM": "zhangpeiming1991@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/PMComponent/PMSpecialKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PMSpecialKit/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "YYWebImage": [
+
+    ],
+    "ReactiveCocoa": [
+      "~> 2.5"
+    ],
+    "PMCategoryKit": [
+
+    ],
+    "PMMainViewKit": [
+
+    ],
+    "PMAPIsKit": [
+
+    ],
+    "PMToolsKit": [
+
+    ],
+    "PMConfigsKit": [
+
+    ],
+    "PMReformerKeysKit": [
+
+    ]
+  }
+}

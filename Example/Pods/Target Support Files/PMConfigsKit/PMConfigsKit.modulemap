@@ -1,0 +1,6 @@
+framework module PMConfigsKit {
+  umbrella header "PMConfigsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

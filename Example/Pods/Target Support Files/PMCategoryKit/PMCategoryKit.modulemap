@@ -1,0 +1,6 @@
+framework module PMCategoryKit {
+  umbrella header "PMCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

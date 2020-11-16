@@ -1,0 +1,6 @@
+framework module PMAPIsKit {
+  umbrella header "PMAPIsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

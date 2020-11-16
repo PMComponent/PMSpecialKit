@@ -1,0 +1,6 @@
+framework module Pods_PMSpecialKit_Example {
+  umbrella header "Pods-PMSpecialKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

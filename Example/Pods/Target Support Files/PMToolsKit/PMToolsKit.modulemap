@@ -1,0 +1,6 @@
+framework module PMToolsKit {
+  umbrella header "PMToolsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
