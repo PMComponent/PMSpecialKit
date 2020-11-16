@@ -9,7 +9,7 @@
 #import "FFSpecialCell.h"
 #import "FFSpecialkit.h"
 #import "FFSpecialCellBottomView.h"
-#import "FFSpecialListReformerKeys.h"
+#import "FFSpecialKit.h"
 #import "FFAuthorListReformerKeys.h"
 //#import "FFAuthorListReformer.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
